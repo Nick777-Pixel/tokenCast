@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # install chromium
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 sudo apt update
 sudo apt-get install chromium-browser --yes
 
