@@ -34,7 +34,7 @@ mkdir /home/pi/.config/autostart
 echo "[Desktop Entry]
 Type=Application
 Name=TokenCast
-Exec=chromium-browser --kiosk --app=http://minicryptotracker.com/" >> /home/pi/.config/autostart/tokencast.desktop
+Exec=chromium-browser --kiosk --app=https://thekingfisher.io/" >> /home/pi/.config/autostart/tokencast.desktop
 
 # reboot to have the xserver-command take effect
 sudo reboot
